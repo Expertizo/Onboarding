@@ -6,7 +6,7 @@ PRs should be small and focused. Each commit should solve a single problem and b
 
 All PRs must be reviewed by a teammate before they are eligible to be merged into  the `master` branch. Large PRs are difficult to review. Be sure to break large PRs into smaller ones so that they can be reviewed quickly and deployed to production.
 
-* **Never** commit passwords, access tokens, or other credentials into version control. If you think you absolutely have to, ask first. If you do this by accident, tell someone immediately.
+* **Never** commit passwords, access tokens, or other credentials into version control. If you think you absolutely have to, ask first. If you do this by accident, tell your lead or PM immediately.
 
 * Each commit should be as small and as simple as possible.
 
@@ -16,7 +16,7 @@ All PRs must be reviewed by a teammate before they are eligible to be merged int
 
 * Use [Conventional Commits](https://www.conventionalcommits.org)
   * See [Commit Types](#Commit-Types) section for reference.
-  * Valid types are `chore:`, `docs:`, `style:`, `refactor:`, `perf:`, and `test:`
+  * Valid types are `build:`, `docs:`, `style:`, `refactor:`, `fix:`, and `feat:`
 
 * Do not mix feature changes (added functionality) with fixes (restored functionality), refactors (no change in functionality), or style changes (only whitespace or other cosmetic changes).
 
@@ -26,7 +26,6 @@ All PRs must be reviewed by a teammate before they are eligible to be merged int
 
 * To keep review simple and reduce complexity, A PR may not include modifications to more than 10 files. Exceptions this file count include:
   * New components
-  * Test files
   * Icons or image files
   * Constants files
 
@@ -60,28 +59,22 @@ Commit types (e.g. `feat`, `fix`, `refactor`, `style`) are important because the
 
 **Style** commits need the least amount of scrutiny. They tend to be very repetitive (converting from snake_case to camelCase, standardizing indentation, or changing newlines). These changes will have no functional impact on the code and any existing tests should be sufficient.
 
-## Parent branches
-
-With larger features, it can be tempting to create a parent branch, allowing for us to work on a feature in a "rough draft" state over a period of time. The challenge there is that keeping the parent branch up-to-date with master can be tedious, resulting in work not being merged into the parent branch. To get around this, we have a number options available, depending on the work being done.
-
-To get around the need for a parent branch, put the new work behind a `feature flag`. This allows for making small incremental changes to a feature, hiding the fact that it is in a "rough draft" state from the users. This can also work if we are updating an existing feature that requires several days of work: create a new component by copying the old component. Any PR which uses a feature flag should have the `feature-flag` label applied to it, in order to clearly communicate this to other developers and QA. Once the new component is ready, remove the flag (make sure to remove dead code as well!) and delete the old component. If you are working on an entirely new view, you may not need the feature flag. The user will only see the view when we link to it from existing UI. Until that happens, we can merge work into master without having to worry about making sure the feature is "complete".
-
 ## Workflow
 
-We use Zenhub to manage our workflow. Each task is represented by an issue. **Be sure to connect any PR you are working on to the appropriate issue.** Do this via the Zenhub interface **and** by adding `Closes #X` where `X` is the issue number to the PR description in Github.
+We use Trello to manage our workflow. Each task is represented by an issue. **Be sure to connect any PR you are working on to the appropriate issue.** Do this via the Trello interface **and** by adding `Closes #X` where `X` is the issue number to the PR description in Github.
 
-Every ticket and PR must have the appropriate `dev-group-*` label. Labels help easy filtering of tickets in ZenHub. Make sure to add other appropriate labels as well to your tickets and PRs.
+Every ticket and PR must have the appropriate `dev-group-*` label. Labels help easy filtering of tickets in Trello. Make sure to add other appropriate labels as well to your tickets and PRs.
 
-As tasks move from **New Issues** to **Backlog** to **In Progress** to **Needs Review** to **Needs QA** to **Ready to Deploy** and finally to **Closed**.
+As tasks move from **Icebox** to **Todos** to **In Progress** to **In Review** to **Reopen** to **Ready to Deploy** and finally to **Closed**.
 
-* New Issues: We use New Issues as a place to put a ticket that is still being prepared by the person who created it. Anything in New Issues is technically not ready to be worked on. If you are creating the ticket, make sure to move it to **Backlog** when it is ready to be worked on.
+* Icebox: We use Icebox as a place to put a ticket that is still being prepared by the person who created it. Anything in New Issues is technically not ready to be worked on. If you are creating the ticket, make sure to move it to **Todos** when it is ready to be worked on.
 
-* Backlog: This is where you will choose from issues to work on. Once you have selected one, move it to **In Progress**.
+* Todos: This is where you will choose from issues to work on. Once you have selected one, move it to **In Progress**.
 
 * In Progress: While you are working on an issue, it should stay in this column. Once you are finished and satisfied with your work, move it to **Needs Review**.
 
-* Needs Review: **Each day you should be looking at this column for PRs to review.** This column will list all issues that are complete and are waiting on review before they can be ready for deploy. When you review an item, make sure that it follows all of our coding principles and will not cause problems when we deploy it to production. Once a PR has been reviewed, either move it back to **In Progress** or forward to **Needs QA** or **Ready to Deploy**. Do not allow items to sit in **Needs Review**.
+* In Review: **Each day you should be looking at this column for PRs to review.** This column will list all issues that are complete and are waiting on review before they can be ready for deploy. When you review an item, make sure that it follows all of our coding principles and will not cause problems when we deploy it to production. Once a PR has been reviewed, either move it back to **In Progress** or forward to **Needs QA** or **Ready to Deploy**. Do not allow items to sit in **Needs Review**.
 
-* Needs QA: If the change affects the front-end and can be tested with a deploy preview it should be tested by QA. After successful testing it should be moved to **Ready to Deploy**, but if it is unsatisfactory, it should be moved back to **In Progress**.
+* Reopen: After successful testing ticket should be moved to **Ready to Deploy**, but if it is unsatisfactory, it should be moved to to **Reopen**. Developer should move it back to **In Progress** and work on it.
 
 * Ready To Deploy: After an issue is finished and has been reviewed and approved by a teammate, it will be moved to this column. After it has been deployed, it will be moved to the **Closed** column.
