@@ -12,6 +12,9 @@ Code quality is very important to us, and we hope it is to you too. In this guid
 
 Please use the links below to view all of Expertizo's Engineering Standards:
 
+
+[Accounts](./accounts.md)
+
 [Code Best Practices](./codeStandards.md)
 
 [Project Lifecycle](./projectLifecycle.md)
