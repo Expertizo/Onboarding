@@ -78,3 +78,10 @@ As tasks move from **Icebox** to **Todos** to **In Progress** to **In Review** t
 * Reopen: After successful testing ticket should be moved to **Ready to Deploy**, but if it is unsatisfactory, it should be moved to to **Reopen**. Developer should move it back to **In Progress** and work on it.
 
 * Ready To Deploy: After an issue is finished and has been reviewed and approved by a teammate, it will be moved to this column. After it has been deployed, it will be moved to the **Closed** column.
+
+**Priorities**:
+* **Urgent** label tickets must have toppest priorities from all.
+* **High Priority** label tickets must have priority over Normal tickets.
+* **Bugs** label tickets are usually considered as **High Priority** unless labeled with **Urgent**
+* **Tickets in Reopen** must have priority over **High Priority** and **Normal tickets** both.
+
