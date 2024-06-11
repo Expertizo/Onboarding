@@ -71,7 +71,7 @@ As tasks move from **Icebox** to **Todos** to **In Progress** to **In Review** t
 
 * Todos: This is where you will choose from issues to work on. Once you have selected one, move it to **In Progress**.
 
-* In Progress: While you are working on an issue, it should stay in this column. Once ticket at a time should stay. Once you are finished and satisfied with your work, move it to **Needs Review**.
+* In Progress: While you are working on an issue, it should stay in this column. **One ticket at a time should stay in Progress**. Once you are finished and satisfied with your work, move it to **Needs Review**.
 
 * In Review: **Each day you should be looking at this column for PRs to review.** This column will list all issues that are complete and are waiting on review before they can be ready for deploy. When you review an item, make sure that it follows all of our coding principles and will not cause problems when we deploy it to production. Once a PR has been reviewed, either move it back to **In Progress** or forward to **Needs QA** or **Ready to Deploy**. Do not allow items to sit in **Needs Review**.
 
