@@ -42,9 +42,9 @@
 2. **📈 Promotion Opportunities**:  
    Promotions are based on two factors:  
    - **Consistently exceeding the target score** for the role. For example:  
-     - **Grade 1 (Jr. Dev)**: Exceeding **20** consistently  
-     - **Grade 2 (Mid. Dev)**: Exceeding **30** consistently  
-     - **Grade 3 (Lead. Dev)**: Exceeding **45** consistently  
+     - **Grade 1 (Jr. Dev)**: Exceeding **20** consistently nearby to **30**
+     - **Grade 2 (Mid. Dev)**: Exceeding **30** consistently nearby to **45** 
+     - **Grade 3 (Lead. Dev)**: Exceeding **45** consistently 
    - **Quarterly Performance Report Criteria**, criteria mentioned below.
 
    Team members who excel in both areas are considered for promotion to the next level.
