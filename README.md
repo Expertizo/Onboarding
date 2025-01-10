@@ -32,3 +32,5 @@ Please use the links below to view all of Expertizo's Engineering Standards:
 [Reference for code refactoring](./refactoring.md)
 
 [FE Bug Solving Checklist](./FE-Bug-Solving-Checklist.md)
+
+[Monthly & Quarterly Performances](./performances.md)
