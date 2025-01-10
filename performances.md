@@ -79,4 +79,6 @@ Team members will be evaluated based on the following criteria, each scored as *
 2. **⏳ 2nd and Last Warning**: If there’s no significant improvement after the first warning, a final warning is issued. This step emphasizes the urgency of taking corrective actions.  
 3. **❌ Termination**: Applied as a last resort if performance doesn't improve after the final warning.  
 
-**Note:** We do not issue warnings if consistent, even slight, improvements are observed.  
+**Note:** We do not issue warnings if we see consistent, even slight, improvements toward the required benchmarks. We understand that growth takes time, and our aim is to support you in achieving your best.
+If you ever feel unclear about your performance or need additional guidance, please don’t hesitate to reach out us in your HR channel. Our goal is to foster a culture of growth and collaboration, and your success is integral to that.
+Let’s continue working together to achieve excellence!
