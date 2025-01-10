@@ -75,8 +75,8 @@ Team members will be evaluated based on the following criteria, each scored as *
 
 ### ⚠️ Performance Improvement Steps  
 
-1. **⚠️ 1st Warning**: Issued when performance remains below target scores for an extended period.  
-2. **⏳ 2nd and Last Warning**: Given if no improvement is observed after the 1st warning.  
+1. **⚠️ 1st Warning**: If performance scores remain below the targeted benchmarks for an extended period, despite support and discussions, a formal warning is issued. This serves as an opportunity to identify challenges and create a plan for improvement.  
+2. **⏳ 2nd and Last Warning**: If there’s no significant improvement after the first warning, a final warning is issued. This step emphasizes the urgency of taking corrective actions.  
 3. **❌ Termination**: Applied as a last resort if performance doesn't improve after the final warning.  
 
 **Note:** We do not issue warnings if consistent, even slight, improvements are observed.  
