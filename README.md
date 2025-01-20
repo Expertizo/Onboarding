@@ -25,7 +25,7 @@ Please use the links below to view all of Expertizo's Engineering Standards:
 
 [Git & GitHub](./gitAndGitHub.md)
 
-[Slack & PRs](./slackAndPRs.md)
+[Slack & PRs](./slack.md)
 
 [Standuply Reports](./standuplyReports.md)
 
