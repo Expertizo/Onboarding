@@ -1,3 +1,28 @@
+## 📢 All Communications on Slack
+
+To streamline communication, all team members are requested to follow these steps:  
+
+1. **📱 Expertizo Slack**  
+   - Install and log in to the Expertizo Slack app on your mobile device.  
+   - This will serve as the primary platform for quick internal conversations.  
+
+2. **🌐 Client Slack Access**  
+   - If you have access to a client's Slack workspace, ensure you are logged in on your mobile device.  
+   - This is important for seamless communication, especially for off-hours requirements.  
+
+---
+
+### ❓ FAQ  
+
+#### Are we required to be available on Slack during off hours?  
+- ⚡ No, you are not required to be constantly available during off hours.  
+- 💡 However, being logged in ensures readiness for urgent matters or pre-agreed schedules.  
+- 🕒 Feel free to manage notifications to maintain a work-life balance.  
+
+---
+
+
+
 ## Slack and Communication
 
 To ensure smooth collaboration and transparency within the team, please adhere to the following guidelines:
