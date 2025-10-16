@@ -73,6 +73,18 @@ Team members will be evaluated based on the following criteria, each scored as *
 
 ---
 
+### 🗒️ Quarterly Review Meeting Preparation Note  
+
+To ensure a productive and meaningful discussion during the **Quarterly Performance Meeting**, all team members are required to:  
+- Review their **previous Quarterly Review Report**, including the feedback and goals that were discussed.  
+- Prepare and bring a **written summary of their self-achievements** and **improvements made toward previous goals**.  
+- Be ready to discuss their progress, learnings, and areas where further support may be needed.  
+
+If any team member arrives **unprepared**, has **not reviewed** the previous report and goals, or fails to provide their **written self-assessment**, the meeting will be **postponed to the following month**.  
+This policy ensures that review sessions remain valuable, focused, and action-oriented.
+
+---
+
 ### ⚠️ Performance Improvement Steps  
 
 1. **⚠️ 1st Warning**: If performance scores remain below the targeted benchmarks for an extended period, despite support and discussions, a formal warning is issued. This serves as an opportunity to identify challenges and create a plan for improvement.  
