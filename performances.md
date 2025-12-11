@@ -55,21 +55,35 @@
 
 Team members will be evaluated based on the following criteria, each scored as **Poor**, **Fair**, **Satisfactory**, **Good**, or **Excellent**:  
 
-- **Job Knowledge**  
+### Performance Criteria
+
 - **Work Quality**  
-- **Code Quality**  
-- **Tasks Reopened / Bugs**  
-- **Deadlines**  
-- **Innovative Thinking**  
-- **Productivity**  
-- **Attendance**  
-- **Communication**  
-- **Independence**  
-- **Problem Solving**  
-- **Teamwork**  
-- **Standups/Reporting**  
+  Covers work quality, code quality, and reopened tasks/bugs.
+
 - **Responsibility**  
+  Covers ownership of tasks and meeting deadlines.
+
+- **Independence**  
+  Covers working without support and solving problems independently.
+
+- **Communication**  
+  Covers communication clarity and reporting (standups/updates).
+
+- **Teamwork**  
+  Covers collaboration and working well with others.
+
+- **Knowledge**  
+  Covers job-related technical and domain understanding.
+
+- **Productivity**  
+  Covers efficiency and the amount of meaningful output.
+
+- **Innovation**  
+  Covers creativity and proposing improvements.
+
 - **Knowledge Sharing**  
+  Covers helping others learn and sharing expertise.
+
 
 ---
 
