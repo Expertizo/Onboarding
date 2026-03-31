@@ -2,6 +2,8 @@
 
 - **📅 Monthly Performance Report**:  
   This report is shared with everyone at the start of each month, either via **Slack** or posted on the **notice board**. It provides insights into individual performance over the past month.
+  
+  - **Manager Note**: I'm not available at the very end moment to review your PRs. At Max, only PRs before 4 PM moved to In Review will be reviewed on the last day of the month.
 
 - **📆 Quarterly Performance Report**:  
   The Quarterly Performance Report is shared with each individual during their **Quarterly Review Meeting**. This report includes detailed feedback on various performance criteria and helps guide career development and promotions.
