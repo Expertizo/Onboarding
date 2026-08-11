@@ -1,7 +1,7 @@
 ## Organizational Email Account
 
 On joining the organization, you will be provided an organizational email account like that 
-> Rizwan.jamal@expertizo.pk
+> Rizwan.jamal@expertizo.co
 
 along with the password to configure the email account.
 
@@ -23,39 +23,38 @@ Under your new chrome profile -> Go to Gmail -> Add Gmail to your Google Account
 
 #### Note
 
-When you click “Add Gmail to your Google Account” and create a new Gmail address under your existing rizwan.jamal@expertizo.pk Google Account:
+When you click “Add Gmail to your Google Account” and create a new Gmail address under your existing rizwan.jamal@expertizo.co Google Account:
 
 The new Gmail address will be attached to the same Google Account.
 
 Your phone number, recovery email, and security settings of that Google Account will apply to both email addresses.
 
-So you don’t need to re-verify everything separately — the Gmail becomes just another alias for login & inbox.
+So you don’t need to re-verify everything separately — Gmail becomes just another alias for login & inbox.
 
 👉 Example:
 
-- Google Account login = rizwan.jamal@expertizo.pk
+- Google Account login = rizwan.jamal@expertizo.co
 
 - New Gmail created = rizwanjamal123@gmail.com
 
 Both share the same phone number & password.
 
-But again, your organization emails won’t come into that new Gmail inbox automatically — unless you configure them via POP3/SMTP.
+**Receiving Emails:** Your organization's emails won’t come into that new Gmail inbox automatically — unless a forwarder is created from our Hostinger. Ask HR for that.
+**Sending Emails:** To send mail as the company email, follow this:
+>“[Tutorial To Configure Your Organization Email](https://www.youtube.com/watch?v=pwWVDSH9Q4M)”
 
-Please Follow This,
->“[Tutorial To Configure Your Organization Email](https://www.youtube.com/watch?v=6PS03y5yUKo)”
-
-Now you can use your company email (rizwan.jamal@expertizo.pk) to access Google services if needed (Drive, Meet, Docs, etc.)
+Now you can use your company email (rizwan.jamal@expertizo.co) to access Google services if needed (Drive, Meet, Docs, etc.)
 
 ### Note on Company Google Account Usage
-The Google account provided to you (e.g., rizwan.jamal@expertizo.pk) is strictly for official use. Please do not store any personal files, emails, or data in this account.
+The Google account provided to you (e.g., rizwan.jamal@expertizo.co) is strictly for official use. Please do not store any personal files, emails, or data in this account.
 
 This account will remain accessible only during your employment at Expertizo. Upon resignation or termination, your access will be revoked and the account may be permanently deleted.
 
 ### Slack Joining
-Once you configured your email, you can see the inivation email to join slack organization of Expertizo.
+Once you have configured your email, you can see the invitation email to join slack organization of Expertizo.
 
 
-Join the slack organiation, and set your profile along with setting your profile picture.
+Join the Slack organization, and set your profile along with setting your profile picture.
 
 There will be few important channels for you.
 
@@ -64,7 +63,7 @@ There will be few important channels for you.
 
 
 > `General Channel:`
-In General channel, you will receive official announcments & important updates.
+In General channel, you will receive official announcements & important updates.
 
 
 > `[Your_Name]_HR Channel:`
