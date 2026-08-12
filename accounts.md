@@ -40,6 +40,7 @@ So you don’t need to re-verify everything separately — Gmail becomes just an
 Both share the same phone number & password.
 
 **Receiving Emails:** Your organization's emails won’t come into that new Gmail inbox automatically — unless a forwarder is created from our Hostinger. Ask HR for that.
+
 **Sending Emails:** To send mail as the company email, follow this:
 >“[Tutorial To Configure Your Organization Email](https://www.youtube.com/watch?v=pwWVDSH9Q4M)”
 
